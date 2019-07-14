@@ -1,8 +1,8 @@
 .rainbow {
-  background: -webkit-linear-gradient(left, red, orange , yellow, green, cyan, blue, violet);
-  background: -o-linear-gradient(right,red,  orange, yellow, green, cyan, blue, violet);
-  background: -moz-linear-gradient(right,red,  orange, yellow, green, cyan, blue, violet);
-  background: linear-gradient(to right,red,  orange , yellow, green, cyan, blue, violet);
+  background: -webkit-linear-gradient(left, red, orange, yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, red, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, red, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -12,13 +12,10 @@
 .shadow {
   position: absolute;
   left: 13px;
-  right: 0;
   top: 8px;
   transform: skewX(30deg);
   transform-origin: bottom left;
-  z-index: 0;
   font-family: Arial, Helvetica, sans-serif;
   z-index: -1;
   color: rgba(0.3, 0.3, 0.3, 0.1);
-
 }
