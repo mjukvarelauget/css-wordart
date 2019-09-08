@@ -1,0 +1,27 @@
+.text-container {
+    position: relative;
+  }
+  
+  .horizon {
+    background: linear-gradient(to bottom,#F8E3C1 30%,#E98B93);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    display: inline-block;
+  
+  }
+  
+  .shadow {
+    z-index: -1;
+    color: transparent;
+    text-shadow: -0.015em -0.02em #0D2E62,
+                  -0.025em -0.03em #0D2E62,
+                  -0.035em -0.04em #0D2E62,
+                  -0.045em -0.05em #0D2E62;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+  }
