@@ -1,0 +1,18 @@
+.style-3-svg-text,
+.style-3 {
+  color: black;
+
+  font-family: "Arial Black", "Arial", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+.style-3-svg-text.bold,
+.style-3.bold {
+  font-weight: bold;
+}
+
+.style-3-svg-text.italic,
+.style-3.italic {
+  font-style: italic;
+}
