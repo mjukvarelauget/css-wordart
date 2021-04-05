@@ -1,0 +1,17 @@
+.style-1 {
+  color: black;
+
+  font-family: "Arial Black", "Arial", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  transform: rotate(-15deg) skewX(-15deg) scaleY(2);
+}
+
+.style-1.bold {
+  font-weight: bold;
+  transform: rotate(-15deg) skewX(-15deg) scaleY(2) scaleX(1.3);
+}
+
+.style-1.italic {
+  font-style: italic;
+}
